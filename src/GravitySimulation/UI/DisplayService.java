@@ -24,7 +24,7 @@ public class DisplayService
 
         for (int i = 0; i < 5000; i++) {
             this.source.calculateNextFrame();
-            Thread.sleep(20);
+            Thread.sleep(250);
             graphic.updateUI();
         }
     }

@@ -1,0 +1,88 @@
+<component name="libraryTable">
+  <library name="java-8-openjdk-amd64">
+    <CLASSES>
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/api" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jdk/api/attach/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jdk/api/javac/tree" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jdk/api/javadoc/doclet" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jdk/api/jconsole/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jdk/api/jpda/jdi" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jdk/api/nashorn" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/management/extension" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/net/httpserver/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/net/socketoptions/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/nio/sctp/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/plugin/dom" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/security/jaas/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/security/jgss/spec" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/jre/api/security/smartcardio/spec" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/ArcTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/BarChart" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/Blink" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/CardTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/Clock" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/DitherTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/DrawTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/Fractal" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/GraphicsTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/MoleculeViewer" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/NervousText" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/SimpleGraph" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/SortDemo" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/SpreadSheet" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/applets/WireFrame" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/demo/nio/zipfs" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/ArcTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/BarChart" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/Blink" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/CardTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/Clock" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/DitherTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/DrawTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/Fractal" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/GraphicsTest" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/MoleculeViewer" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/NervousText" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/SimpleGraph" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/SortDemo" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/SpreadSheet" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/applets/WireFrame" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/demo/nio/zipfs" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/annotations/DependencyChecker/PluginChecker/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/annotations/DependencyChecker/Plugins/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/annotations/Validator/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/forkjoin/mergesort" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/jmx/jmx-scandir/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/jmx/jmx-scandir/test" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/lambda/BulkDataOperations/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/lambda/DefaultMethods" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/nio/chatserver" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/nio/file" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/nio/multicast" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/nio/server" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/scripting/scriptpad/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/docs/examples/try-with-resources/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/annotations/DependencyChecker/PluginChecker/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/annotations/DependencyChecker/Plugins/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/annotations/Validator/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/forkjoin/mergesort" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/jmx/jmx-scandir/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/jmx/jmx-scandir/test" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/lambda/BulkDataOperations/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/lambda/DefaultMethods" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/nio/chatserver" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/nio/file" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/nio/multicast" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/nio/server" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/scripting/scriptpad/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64/sample/try-with-resources/src" />
+      <root url="file:///usr/lib/jvm/java-8-openjdk-amd64" />
+    </SOURCES>
+    <jarDirectory url="file:///usr/lib/jvm/java-8-openjdk-amd64" recursive="false" type="SOURCES" />
+  </library>
+</component>

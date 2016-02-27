@@ -10,7 +10,7 @@ import java.util.List;
 public class Universe implements Displayable
 {
     final double SECONDS_PER_FRAME = 1;
-    final double METERS_PER_PIXEL = 0.01;
+    final double METERS_PER_PIXEL = 0.001;
 
     protected int width;
     protected int height;
@@ -23,12 +23,15 @@ public class Universe implements Displayable
 
     public void populate(int numberOfParticles) {
         this.particles = new Particle[numberOfParticles];
-        for (int i = 0; i < numberOfParticles; i++) {
-            int x = (int) (Math.random() * this.width);
-            int y = (int) (Math.random() * this.height);
-            int m = (int) (Math.random() * 1000000000);
-            this.particles[i] = new Particle(m, x, y, 0, 0);
-        }
+//        for (int i = 0; i < numberOfParticles; i++) {
+//            int x = (int) (Math.random() * this.width);
+//            int y = (int) (Math.random() * this.height);
+//            int m = (int) (Math.random() * 1000000000);
+//            this.particles[i] = new Particle(m, x, y, 0, 0);
+//        }
+
+        this.particles[0] = new Particle(1000000000, 500, 500, 0, -10);
+        this.particles[1] = new Particle(1000000000, 550, 500, 0, 10);
     }
 
     public void calculateNextFrame()
@@ -48,8 +51,8 @@ public class Universe implements Displayable
                 double[] force = Physic.gravityForce2d(particleInScope, otherParticle, distance);
                 particleInScope.setForceX(particleInScope.getForceX() + force[0]);
                 particleInScope.setForceY(particleInScope.getForceX() + force[1]);
-                otherParticle.setForceX(otherParticle.getForceX() + force[0]);
-                otherParticle.setForceY(otherParticle.getForceY() + force[1]);
+                otherParticle.setForceX(otherParticle.getForceX() - force[0]);
+                otherParticle.setForceY(otherParticle.getForceY() - force[1]);
             }
         }
     }
@@ -67,8 +70,17 @@ public class Universe implements Displayable
     protected void calculatePositions()
     {
         for (Particle particle : this.particles) {
-            particle.setCoordX(particle.getCoordX() + (particle.getVelocityX() * SECONDS_PER_FRAME));
-            particle.setCoordY(particle.getCoordY() + (particle.getVelocityY() * SECONDS_PER_FRAME));
+            double x = particle.getCoordX() + (particle.getVelocityX() * SECONDS_PER_FRAME);
+            double y = particle.getCoordY() + (particle.getVelocityY() * SECONDS_PER_FRAME);
+
+            x = x > this.width ? x - this.width : x;
+            y = y > this.height ? y - this.height : y;
+
+            x = x < 0 ? x + this.width : x;
+            y = y < 0 ? y + this.height : y;
+
+            particle.setCoordX(x > this.width ? x - this.width : x);
+            particle.setCoordY(y > this.height ? y - this.height : y);
         }
     }
 
